@@ -191,3 +191,31 @@ body {
   font-weight: 500;
   margin-top: 20px;
 }
+
+/* cta-modal BLOCK */
+.cta-modal__inner{
+  max-width: 1024px;
+  margin: auto;
+  background-color: var(--azure);
+  border-radius: 14px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 50px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-modal__main-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--baby-powder);
+}
+
+.cta-modal__sub-text {
+  font-size: 18px;
+  color: var(--baby-powder);
+}
+
+.cta-modal__button {
+  border: 2px solid var(--baby-powder);
+}
